@@ -13,7 +13,13 @@ class TopBar extends Component {
     return (
       <Navbar bg="light" expand="lg" style={{backgroundColor: "#f4f5f8"}}>
       <Container>
-        <Navbar.Brand href="/">Yarn</Navbar.Brand>
+        <Navbar.Brand href="/">
+        <img
+              src="./RibStitch.png"
+              className="d-inline-block align-top logo-img"
+              alt="RibStitch logo"
+            />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
