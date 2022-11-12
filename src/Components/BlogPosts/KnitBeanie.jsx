@@ -68,7 +68,7 @@ function KnitBeanie() {
             <ol>
                 <li>If you occassionally drop a stitch or make extra stitches, you can open the work again
                     and have another go from sometime before it, or take a look at
-                    the tutorial for picking up a <Link to={"/learn/dropped-stitch"} >dropped stitch</Link></li>
+                    the tutorial for picking up a <Link to={"/learn/dropped-stitch"} >Dropped Stitch</Link></li>
                 <li>You might need to add a new yarn for both colours but it should
                     be relatively simple</li>
                 <li>You will have tails of the yarn hanging off but we'll take care of it later.
@@ -119,8 +119,8 @@ function KnitBeanie() {
                     for x cm/ y inches</li>
                 <li>Once we're done with that, we'll knit z cm/ t inches of the <Link to={"/learn/simple-knit"} >Knit Stich</Link></li>
 
-                <li>Now we must start decreasing the number of stitches. So we'll be decreasing two stitches using the
-                    <Link to={"/learn/decrease-stitches"} >Right Leaning Decrease</Link>.
+                <li>Now we must start decreasing the number of stitches. So we'll be decreasing two stitches using 
+                    the <Link to={"/learn/decrease-stitches"} >Right Leaning Decrease</Link>.
                     <br />
                     So in the first row, knit the first 19 stitches as normal,
                     <br />
@@ -158,8 +158,8 @@ function KnitBeanie() {
             Ofcourse there are plenty of variations in making the Beanie, so go ahead and try
             using different Knitting Patterns and colours! Dont be afraid of trying.
             <br />
-            Ofcourse if you want to add one final finishing touch, you can make a
-            <Link to={"/learn/pom-pom"} > Pom Pom</Link> and stitch it
+            Ofcourse if you want to add one final finishing touch, you can make 
+            a <Link to={"/learn/pom-pom"} >Pom Pom</Link> and stitch it
             to the top of the Beanie which gives the Beanie some character!
         </div>
     );

@@ -16,8 +16,8 @@ function KnitPatterns() {
             <br /><br />
             We have now learned the basics and are atleast 1 scarf project into
             our knitting journey. Now is the time we learn a few new patterns.
-            All Knitting patterns usually based on the 
-            <Link to={"/learn/simple-knit"} > Knit Stitch</Link> and
+            All Knitting patterns usually based on 
+            the <Link to={"/learn/simple-knit"} >Knit Stitch</Link> and
             the <Link to={"/learn/purl-knit"} >Purl Stitch</Link>. 
             As with any of the tutorials, don't be afraid to make mistakes and just have fun with it!
             <br /><br />
