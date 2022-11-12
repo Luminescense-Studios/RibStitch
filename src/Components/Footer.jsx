@@ -33,9 +33,9 @@ class Footer extends Component {
       <div>
         {/* ======= Footer ======= */}
         <footer id="footer">
-          <div className="container d-md-flex py-4">
-            <div className="mr-md-auto text-left text-md-left">
-              <h3 style={{ marginBottom: "0" }}>Yarn</h3>{" "}
+          <div className="custom-container row d-md-flex pt-4 pb-3">
+            <div className="custom-container mr-md-auto text-left text-md-left">
+              <h3 style={{ marginBottom: "0" }}>RibStitch</h3>{" "}
               <p>Handmade Software</p>
               <p>
                 <strong>
@@ -44,29 +44,15 @@ class Footer extends Component {
                 {EMAIL}
                 <br></br>
               </p>
-              <div className="copyright">
-                &copy; Copyright
-                <strong>
-                  <span> Yarn</span>
-                </strong>
-                . All Rights Reserved
-              </div>
             </div>
 
-            <div className="social-links text-center text-md-right pt-3 pt-md-0">
+            <div className="custom-container social-links text-center text-md-right pt-3 pt-md-0">
               <ReactGA.OutboundLink
                 eventLabel={INSTAGRAM_OUTBOUND}
                 to={INSTAGRAM_PAGE}
                 target="_blank"
               >
                 <FaInstagram />
-              </ReactGA.OutboundLink>
-              <ReactGA.OutboundLink
-                eventLabel={FACEBOOK_OUTBOUND}
-                to={FACEBOOK_PAGE}
-                target="_blank"
-              >
-                <FaFacebookF />
               </ReactGA.OutboundLink>
               <ReactGA.OutboundLink
                 eventLabel={LINKEDIN_OUTBOUND}
@@ -82,14 +68,14 @@ class Footer extends Component {
               >
                 <FaBehance />
               </ReactGA.OutboundLink>
-              <ReactGA.OutboundLink
-                eventLabel={GITHUB_OUTBOUND}
-                to={GITHUB_PAGE}
-                target="_blank"
-              >
-                <FaGithub />
-              </ReactGA.OutboundLink>
             </div>
+          </div>
+          <div className="copyright">
+            &copy; Copyright
+            <strong>
+              <span> RibStitch</span>
+            </strong>
+            . All Rights Reserved
           </div>
         </footer>
         {/* End Footer */}

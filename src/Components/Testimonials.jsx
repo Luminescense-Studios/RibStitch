@@ -25,7 +25,7 @@ function GridExample() {
 
             <Card className="mx-auto">
                 <div className="card-top-line" />
-                <Card.Img variant="top" src="./hero-bg.jpg" />
+                <Card.Img variant="top" src="./logo512.png" />
                 <Card.Body>
                     <Card.Text>
                         Wanted to learn knitting for a long time and

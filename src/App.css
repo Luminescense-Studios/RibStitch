@@ -34,7 +34,7 @@ body {
   background-color: var(--very-light-gray);
   padding: 1rem 0.7rem;
 }
-
+/* 
 .carousel-indicators button {
   border: none;
   padding: 0.07rem 1rem 0.07rem 1rem;
@@ -48,7 +48,7 @@ body {
 
 .carousel-indicators button:focus {
   outline: none;
-}
+} */
 
 .carousel-caption-custom {
   background-color: #000;
@@ -57,6 +57,7 @@ body {
   padding: 0.4rem 1rem;
   border-radius: 2rem;
   color: var(--white);
+  transition: 0.3s;
 }
 
 .carousel-caption-custom:hover {
@@ -371,4 +372,18 @@ a:hover {
 #footer .social-links a:hover {
   background: var(--primary-dark);
   text-decoration: none;
+}
+
+#footer .custom-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#footer .copyright {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#footer p {
+  margin-bottom: 0.2rem;
 }
