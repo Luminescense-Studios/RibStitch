@@ -15,7 +15,7 @@ class TopBar extends Component {
       <Container>
         <Navbar.Brand href="/">
         <img
-              src="./RibStitch.png"
+              src="../RibStitch.png"
               className="d-inline-block align-top logo-img"
               alt="RibStitch logo"
             />

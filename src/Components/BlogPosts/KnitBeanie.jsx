@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import ListGroup from 'react-bootstrap/ListGroup';
-import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 
 function KnitBeanie() {
@@ -25,12 +24,10 @@ function KnitBeanie() {
             <Accordion>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>
-                        <Button variant="light" style={{ width: "100%", textAlign: "left" }}>
-                            Skills Required
-                        </Button>
+                        Skills Required
                     </Accordion.Header>
                     <Accordion.Body>
-                        <ListGroup>
+                        <ListGroup variant="flush">
                             <ListGroup.Item><Link to={"/learn/cast-on"} >
                                 <div className="wide-link">Cast On</div>
                             </Link></ListGroup.Item>
@@ -54,12 +51,10 @@ function KnitBeanie() {
             <Accordion>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                        <Button variant="light" style={{ width: "100%", textAlign: "left" }}>
                             Materials Required
-                        </Button>
                     </Accordion.Header>
                     <Accordion.Body>
-                        <ListGroup>
+                        <ListGroup variant="flush">
                             <ListGroup.Item>Knitting Needles</ListGroup.Item>
                             <ListGroup.Item>Yarn (Any Colour)</ListGroup.Item>
                         </ListGroup>
@@ -153,8 +148,8 @@ function KnitBeanie() {
             Ofcourse there are plenty of variations in making the Beanie, so go ahead and try
             using different Knitting Patterns and colours! Dont be afraid of trying.
             <br />
-            Ofcourse if you want to add one final finishing touch, you can make a 
-            <Link to={"/learn/pom-pom"} > Pom Pom</Link> and stitch it 
+            Ofcourse if you want to add one final finishing touch, you can make a
+            <Link to={"/learn/pom-pom"} > Pom Pom</Link> and stitch it
             to the top of the Beanie which gives the Beanie some character!
         </div>
     );

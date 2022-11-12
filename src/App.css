@@ -147,6 +147,12 @@ a:hover {
   /* position: relative; */
 }
 
+.topic-icon:hover {
+  background-color: #64a9ba;
+  height: 5rem;
+  /* position: relative; */
+}
+
 .topic-box .topic-icon div.subject-icon {
   /* display: block; */
   /* width: 72px;
@@ -169,6 +175,11 @@ a:hover {
   text-align: center;
   padding: 4px 0;
   font-size: 0.7rem;
+}
+
+
+.topic-box a {
+  text-decoration: none;
 }
 
 .small-alert {
@@ -313,6 +324,11 @@ a:hover {
   font-size: 0.8rem;
 }
 
+.accordion {
+  padding-bottom: 0.3rem;
+}
+
+/* 
 .accordion-header {
   font-size: 1rem;
   background-color: #fff;
@@ -338,7 +354,7 @@ a:hover {
 
 .wide-link {
   width: 100%;
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer

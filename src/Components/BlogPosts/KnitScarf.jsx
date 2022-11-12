@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import ListGroup from 'react-bootstrap/ListGroup';
-import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 
 function KnitScarf() {
@@ -20,12 +19,10 @@ function KnitScarf() {
             <Accordion>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>
-                        <Button variant="light" style={{ width: "100%", textAlign: "left" }}>
                             Skills Required
-                        </Button>
                     </Accordion.Header>
                     <Accordion.Body>
-                        <ListGroup>
+                        <ListGroup variant="flush">
                             <ListGroup.Item><Link to={"/learn/cast-on"} >
                                 <div className="wide-link">Cast On</div>
                             </Link></ListGroup.Item>
@@ -45,12 +42,10 @@ function KnitScarf() {
             <Accordion>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                        <Button variant="light" style={{ width: "100%", textAlign: "left" }}>
                             Materials Required
-                        </Button>
                     </Accordion.Header>
                     <Accordion.Body>
-                        <ListGroup>
+                        <ListGroup variant="flush">
                             <ListGroup.Item>Knitting Needles</ListGroup.Item>
                             <ListGroup.Item>Yarn (Any Colour 1)</ListGroup.Item>
                             <ListGroup.Item>Yarn (Any Colour 2)</ListGroup.Item>

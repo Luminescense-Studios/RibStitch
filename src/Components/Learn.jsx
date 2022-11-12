@@ -1,22 +1,22 @@
 import React, { Component } from "react";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import TopBar from "../TopBar.jsx";
-import Footer from "../Footer.jsx";
-import CastOn from "./CastOn.jsx"
-import BindOff from "./BindOff.jsx"
-import SimpleKnit from "./SimpleKnit.jsx"
-import AddNewYarn from "./AddNewYarn.jsx"
-import KnitScarf from "./KnitScarf.jsx"
-import DroppedStitch from "./DroppedStitch.jsx"
-import PurlStitch from "./PurlStitch.jsx"
-import KnitPatterns from "./KnitPatterns.jsx"
-import IncreaseStitches from "./IncreaseStitches.jsx"
-import DecreaseStitches from "./DecreaseStitches.jsx"
-import KnitBeanie from "./KnitBeanie.jsx"
-import PomPom from "./PomPom.jsx"
+import TopBar from "./TopBar.jsx";
+import Footer from "./Footer.jsx";
+import CastOn from "./BlogPosts/CastOn.jsx"
+import BindOff from "./BlogPosts/BindOff.jsx"
+import SimpleKnit from "./BlogPosts/SimpleKnit.jsx"
+import AddNewYarn from "./BlogPosts/AddNewYarn.jsx"
+import KnitScarf from "./BlogPosts/KnitScarf.jsx"
+import DroppedStitch from "./BlogPosts/DroppedStitch.jsx"
+import PurlStitch from "./BlogPosts/PurlStitch.jsx"
+import KnitPatterns from "./BlogPosts/KnitPatterns.jsx"
+import IncreaseStitches from "./BlogPosts/IncreaseStitches.jsx"
+import DecreaseStitches from "./BlogPosts/DecreaseStitches.jsx"
+import KnitBeanie from "./BlogPosts/KnitBeanie.jsx"
+import PomPom from "./BlogPosts/PomPom.jsx"
 import { inject, observer } from "mobx-react";
-import { initGA, PageView } from "../../GATracker/index";
-import { TRACKING_ID, GA_OPTIONS } from "../../Constants";
+import { initGA, PageView } from "../GATracker/index";
+import { TRACKING_ID, GA_OPTIONS } from "../Constants";
 
 @inject("store")
 @observer

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Homepage from "./Components/Homepage.jsx";
-import Learn from "./Components/BlogPosts/Learn.jsx"
+import Learn from "./Components/Learn.jsx"
 import { inject, observer } from "mobx-react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
