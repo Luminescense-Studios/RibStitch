@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { Link } from "react-router-dom";
+import Figure from 'react-bootstrap/Figure';
 
 function KnitBeanie() {
     useEffect(() => {
@@ -51,7 +52,7 @@ function KnitBeanie() {
             <Accordion>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                            Materials Required
+                        Materials Required
                     </Accordion.Header>
                     <Accordion.Body>
                         <ListGroup variant="flush">
@@ -88,10 +89,19 @@ function KnitBeanie() {
             and the Beanie will finally take shape. We must also decide how many sections the converging top
             will have. In the AC Milan Beanie, its 6 sections.
             <br /><br />
-            Measurements will be as shown in the diagram:
-            <img src="../beanie-diagram.jpeg" alt="Scarf Diagram" style={{
+            Measurements will be as shown in Fig.1:
+
+            <Figure style={{
                 margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
-            }} />
+            }}>
+                <Figure.Image
+                    alt="Beanie Diagram"
+                    src="../beanie-diagram.jpeg"
+                />
+                <Figure.Caption>
+                    Fig.1: Beanie Dimensions
+                </Figure.Caption>
+            </Figure>
             <br /><br />
             If youre unsure about the measurements and the thickness of the yarn you're using, just relax
             and remember the <Link to={"/learn/knitting-patterns#rib"} >2x2 Rib Pattern</Link> is very forgiving.

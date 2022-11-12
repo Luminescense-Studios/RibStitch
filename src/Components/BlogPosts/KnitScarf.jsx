@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { Link } from "react-router-dom";
+import Figure from 'react-bootstrap/Figure';
 
 function KnitScarf() {
     useEffect(() => {
@@ -19,7 +20,7 @@ function KnitScarf() {
             <Accordion>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>
-                            Skills Required
+                        Skills Required
                     </Accordion.Header>
                     <Accordion.Body>
                         <ListGroup variant="flush">
@@ -42,7 +43,7 @@ function KnitScarf() {
             <Accordion>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                            Materials Required
+                        Materials Required
                     </Accordion.Header>
                     <Accordion.Body>
                         <ListGroup variant="flush">
@@ -72,10 +73,18 @@ function KnitScarf() {
             and last rows, we'll keep the width as 7 rows. But you're free to play around with it.
             <br />
 
-            <img src="../scarf-diagram.jpeg" alt="Scarf Diagram" style={{
+            <Figure style={{
                 margin: "0 auto", display: "block", paddingTop: "1rem", width: "100%", maxWidth: "35rem"
-            }} />
-            
+            }}>
+                <Figure.Image
+                    alt="Scarf Diagram"
+                    src="../scarf-diagram.jpeg"
+                />
+                <Figure.Caption>
+                    Fig.1: Scarf Dimensions 
+                </Figure.Caption>
+            </Figure>
+
             <br /><br />
             Steps:
             <ol>

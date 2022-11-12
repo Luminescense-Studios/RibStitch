@@ -4,11 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 
 function IndividualIntervalsExample() {
   return (
-    <Carousel id="home" nextLabel='' prevLabel='' indicators={true} slide={false}
+    <Carousel id="home"
+      controls={false}
       autoPlay={true}
-      interval={3000}
+      variant="dark"
     >
-      <Carousel.Item>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="./knitting-page.png"
@@ -18,7 +19,7 @@ function IndividualIntervalsExample() {
           <Nav.Link href="/#learn"><div className="carousel-caption-custom">Get Started!</div></Nav.Link>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={3000}>
         <img
           className="d-block w-100"
           src="./knitting-page2.png"
