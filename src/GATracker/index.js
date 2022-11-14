@@ -5,7 +5,7 @@ export const initGA = (trackingID, options) => {
 }
 
 export const PageView = () => {
-    ReactGA.pageview(window.location.pathname +
+    ReactGA.pageview("RibStitch - " + window.location.pathname +
         window.location.search);
 }
 

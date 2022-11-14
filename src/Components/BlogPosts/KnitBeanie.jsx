@@ -115,8 +115,8 @@ function KnitBeanie() {
             Steps:
             <ol>
                 <li>Lets start off by casting on 130 stitches</li>
-                <li>We'll start by knitting the <Link to={"/learn/knitting-patterns#rib"} >2x2 Rib Pattern</Link>
-                    for x cm/ y inches</li>
+                <li>We'll start by knitting the 
+                    <Link to={"/learn/knitting-patterns#rib"} >2x2 Rib Pattern</Link> for x cm/ y inches</li>
                 <li>Once we're done with that, we'll knit z cm/ t inches of the <Link to={"/learn/simple-knit"} >Knit Stich</Link></li>
 
                 <li>Now we must start decreasing the number of stitches. So we'll be decreasing two stitches using 
