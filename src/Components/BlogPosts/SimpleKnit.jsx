@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
+import Figure from 'react-bootstrap/Figure';
 
 function SimpleKnit() {
     useEffect(() => {
@@ -26,7 +27,21 @@ function SimpleKnit() {
             return to this part of the tutorial as it will be a part of your muscle
             memory.
             <br />
-            But to have a goal in sight, Lets make an around 10cm long squar-ish blanket. But 
+
+            <Figure style={{
+                margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+            }}>
+                <Figure.Image
+                    alt="Simple Knit"
+                    src="../simple-knit.jpeg"
+                />
+                <Figure.Caption>
+                    Fig.1: Simple Knit
+                </Figure.Caption>
+            </Figure>
+
+            <br /><br />
+            But to have a goal in sight, Lets make an around 10cm long squar-ish blanket. But
             you can make it as long as you like...
             <br /><br />
             <iframe className='video'
@@ -37,7 +52,7 @@ function SimpleKnit() {
             </iframe>
 
             <br /><br />
-            This is a helpful tip I found for beginners. But you'll probably fix it yourself 
+            This is a helpful tip I found for beginners. But you'll probably fix it yourself
             as you learn to knit. So dont worry if your knits are a little tight...
             <br /><br />
             <iframe className='video'

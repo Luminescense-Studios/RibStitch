@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Figure from 'react-bootstrap/Figure';
 
 function AddNewYarn() {
     useEffect(() => {
@@ -21,6 +22,20 @@ function AddNewYarn() {
             Now, we want to add a new yarn from the start of a new row. But the procedure
             will be same even if you want to change yarn in the middle of the row.
             <br />
+
+            <Figure style={{
+                margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+            }}>
+                <Figure.Image
+                    alt="Add New yarn"
+                    src="../simple-knit.jpeg"
+                />
+                <Figure.Caption>
+                    Fig.1: Add New yarn
+                </Figure.Caption>
+            </Figure>
+
+            <br /><br />
             Feel free to return to this part of the tutorial if you ever
             forget how to change yarn...
             <br /><br />
