@@ -48,10 +48,13 @@ function RoadMap() {
             <div className="level-box">
 
                 <div className="row">
+                    <TopicBox text="Carrying up Yarn" imagePath="./stripe-pattern.png" link="stripe-pattern" />
                     <TopicBox text="Knit a Scarf" imagePath="./winter-scarf.png" link="knit-a-scarf" />
+                </div>
+                <div className="row">
+                    <TopicBox text="Weaving in Ends" imagePath="./weaving-ends.png" link="weaving-ends" />
                     <TopicBox text="Dropped Stitch" imagePath="./knitting-dropped.png" link="dropped-stitch" />
                 </div>
-
             </div>
 
 

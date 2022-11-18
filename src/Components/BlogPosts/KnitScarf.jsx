@@ -81,17 +81,115 @@ function KnitScarf() {
                     src="../scarf-diagram.jpeg"
                 />
                 <Figure.Caption>
-                    Fig.1: Scarf Dimensions 
+                    Fig.1: Scarf Dimensions
                 </Figure.Caption>
             </Figure>
 
             <br /><br />
             Steps:
             <ol>
-                <li>Lets start off by casting on 45 stitches</li>
-                <li>Then lets knit 7 rows of yarn of colour 1</li>
-                <li>Then lets knit 2 rows of yarn of colour 2</li>
-                <li>Then lets knit 2 rows of yarn of colour 1</li>
+                <li>Lets start off by casting on 45 stitches
+                    <br />
+                    <Figure style={{
+                        margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                    }}>
+                        <Figure.Image
+                            alt="Scarf Cast On"
+                            src="../scarf-cast-on.jpeg"
+                        />
+                        <Figure.Caption>
+                            Fig.2: Cast On 45 Stitches
+                        </Figure.Caption>
+                    </Figure>
+                    <br />
+                </li>
+                <li>Then lets knit 7 rows of yarn of colour 1
+                    <br />
+                    <div className="row">
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Scarf First Stripe"
+                                src="../scarf-begin-stripe.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.3: First Stripe
+                            </Figure.Caption>
+                        </Figure>
+
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Scarf First Stripe"
+                                src="../scarf-begin-stripe-width.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.4: First Stripe Width
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                    <br />
+                </li>
+                <li>Then lets knit 2 rows of yarn of colour 2
+                    <br />
+                    <div className="row">
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Scarf Changing Colour"
+                                src="../scarf-changing-colour-front.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.5: Changing Colour Front
+                            </Figure.Caption>
+                        </Figure>
+
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Scarf Changing Colour"
+                                src="../scarf-changing-colour-back.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.6: Changing Colour Back
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                    <br />
+                </li>
+                <li>Then lets knit 2 rows of yarn of colour 1
+                    <br />
+                    <div className="row">
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Scarf Midway"
+                                src="../scarf-midway-front.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.7: Scarf Midway Front
+                            </Figure.Caption>
+                        </Figure>
+
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Scarf Midway"
+                                src="../scarf-midway-back.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.8: Scarf Midway Back
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                    <br />
+                </li>
                 <li>Carrying on this same process of switching yarn every 2 rows,
                     we want to create a scarf of about length 1.7 meters
                     (or whatever feels comfortable)
@@ -100,6 +198,19 @@ function KnitScarf() {
                 <li>Finally, Bind Off! And you have made your very first scarf! Congratulations!
                     We'll add some finishing touches like hiding the tails where we changed the yarn</li>
             </ol>
+
+            <Figure style={{
+                margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+            }}>
+                <Figure.Image
+                    alt="Scarf Final"
+                    src="../scarf-final.jpeg"
+                />
+                <Figure.Caption>
+                    Fig.9: Final Scarf
+                </Figure.Caption>
+            </Figure>
+            <br />
 
             You can try out plenty of variations like using more than 2 colours,
             or using a single colour for the entire project, or different thickness of stripes,

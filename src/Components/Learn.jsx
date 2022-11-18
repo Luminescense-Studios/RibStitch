@@ -9,7 +9,9 @@ import AddNewYarn from "./BlogPosts/AddNewYarn.jsx"
 import KnitScarf from "./BlogPosts/KnitScarf.jsx"
 import DroppedStitch from "./BlogPosts/DroppedStitch.jsx"
 import PurlStitch from "./BlogPosts/PurlStitch.jsx"
+import StripePattern from "./BlogPosts/StripePattern.jsx"
 import KnitPatterns from "./BlogPosts/KnitPatterns.jsx"
+import WeavingEnds from "./BlogPosts/WeavingEnds.jsx"
 import IncreaseStitches from "./BlogPosts/IncreaseStitches.jsx"
 import DecreaseStitches from "./BlogPosts/DecreaseStitches.jsx"
 import KnitBeanie from "./BlogPosts/KnitBeanie.jsx"
@@ -43,7 +45,9 @@ class Learn extends Component {
           {(this.props.match.params.viewKey === "simple-knit") && (<SimpleKnit />)}
           {(this.props.match.params.viewKey === "bind-off") && (<BindOff />)}
           {(this.props.match.params.viewKey === "add-new-yarn") && (<AddNewYarn />)}
+          {(this.props.match.params.viewKey === "stripe-pattern") && (<StripePattern />)}
           {(this.props.match.params.viewKey === "knit-a-scarf") && (<KnitScarf />)}
+          {(this.props.match.params.viewKey === "weaving-ends") && (<WeavingEnds />)}
           {(this.props.match.params.viewKey === "dropped-stitch") && (<DroppedStitch />)}
           {(this.props.match.params.viewKey === "purl-knit") && (<PurlStitch />)}
           {(this.props.match.params.viewKey === "knitting-patterns") && (<KnitPatterns />)}
