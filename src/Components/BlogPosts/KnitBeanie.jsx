@@ -149,7 +149,14 @@ function KnitBeanie() {
                     </iframe>
                 </li>
                 <li>Using the same technique, we need to stitch together the entire Beanie from top to bottom,
-                    And we're DONE!</li>
+                    And we're DONE!
+                    <iframe className='video'
+                        title='Youtube player'
+                        sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+                        src="https://youtube.com/embed/5kGkxn46_To?autoplay=0"
+                        allowFullScreen>
+                    </iframe>
+                    </li>
             </ol>
             <br /><br />
             Congratulations on making your first Beanie!
