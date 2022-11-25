@@ -81,6 +81,31 @@ function KnitBeanie() {
             Before we start off, we should decide on what measurements we'll be using to develop
             the beanie. Since we already have a ready made beanie, lets just use that as our guide.
             <br /><br />
+            <div className="row">
+                <Figure style={{
+                    margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                }}>
+                    <Figure.Image
+                        alt="Beanie Guide"
+                        src="../beanie-1-ac-milan-beanie.jpeg"
+                    />
+                    <Figure.Caption>
+                        Fig.1: Beanie Guide
+                    </Figure.Caption>
+                </Figure>
+                <Figure style={{
+                    margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                }}>
+                    <Figure.Image
+                        alt="Beanie Guide"
+                        src="../beanie-2-ac-milan-measurements.jpeg"
+                    />
+                    <Figure.Caption>
+                        Fig.2: Beanie Guide Measurements
+                    </Figure.Caption>
+                </Figure>
+            </div>
+            <br /><br />
             We'll be knitting the beanie from the bottom to the top, so we'll make a few rows of
             the <Link to={"/learn/knitting-patterns#rib"} >2x2 Rib Pattern</Link> first,
             then few rows of the simple <Link to={"/learn/simple-knit"} >Knit Stich</Link> and
@@ -89,7 +114,7 @@ function KnitBeanie() {
             and the Beanie will finally take shape. We must also decide how many sections the converging top
             will have. In the AC Milan Beanie, its 6 sections.
             <br /><br />
-            Measurements will be as shown in Fig.1:
+            Measurements will be as shown in Fig.3:
 
             <Figure style={{
                 margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
@@ -99,7 +124,7 @@ function KnitBeanie() {
                     src="../beanie-diagram.jpeg"
                 />
                 <Figure.Caption>
-                    Fig.1: Beanie Dimensions
+                    Fig.3: Beanie Dimensions
                 </Figure.Caption>
             </Figure>
             <br /><br />
@@ -114,12 +139,76 @@ function KnitBeanie() {
             <br /><br />
             Steps:
             <ol>
-                <li>Lets start off by casting on 130 stitches</li>
-                <li>We'll start by knitting the 
-                    <Link to={"/learn/knitting-patterns#rib"} >2x2 Rib Pattern</Link> for x cm/ y inches</li>
-                <li>Once we're done with that, we'll knit z cm/ t inches of the <Link to={"/learn/simple-knit"} >Knit Stich</Link></li>
-
-                <li>Now we must start decreasing the number of stitches. So we'll be decreasing two stitches using 
+                <li>Lets start off by casting on 130 stitches
+                    <Figure style={{
+                        margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                    }}>
+                        <Figure.Image
+                            alt="Beanie Cast On"
+                            src="../beanie-3-cast-on.jpeg"
+                        />
+                        <Figure.Caption>
+                            Fig.4: Cast On 130 Stitches
+                        </Figure.Caption>
+                    </Figure>
+                </li>
+                <br />
+                <li>We'll start by knitting the
+                    <Link to={"/learn/knitting-patterns#rib"} >2x2 Rib Pattern</Link> for 12 cm
+                    <div className="row">
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Beanie Elastic"
+                                src="../beanie-4-elastic-measure.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.5: Beanie Elastic Width
+                            </Figure.Caption>
+                        </Figure>
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Beanie Elastic"
+                                src="../beanie-5-elastic-measurement-compare.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.6: Beanie Elastic Width
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                </li>
+                <br />
+                <li>Once we're done with that, we'll knit 12 cm of the <Link to={"/learn/simple-knit"} >Knit Stich</Link>
+                    <div className="row">
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Beanie Purl"
+                                src="../beanie-6-measure.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.7: Purl Knit Width
+                            </Figure.Caption>
+                        </Figure>
+                        <Figure style={{
+                            margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                        }}>
+                            <Figure.Image
+                                alt="Beanie Purl"
+                                src="../beanie-7-compare-measure.jpeg"
+                            />
+                            <Figure.Caption>
+                                Fig.8: Purl Knit Width
+                            </Figure.Caption>
+                        </Figure>
+                    </div>
+                </li>
+                <br />
+                <li>Now we must start decreasing the number of stitches. So we'll be decreasing two stitches using
                     the <Link to={"/learn/decrease-stitches"} >Right Leaning Decrease</Link>.
                     <br />
                     So in the first row, knit the first 19 stitches as normal,
@@ -138,7 +227,19 @@ function KnitBeanie() {
                 </li>
                 <li>Carry on the process of 1 row decreasing and 1 row as normal till we reach the point that all decreased
                     stitches converge.
+                    <Figure style={{
+                        margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+                    }}>
+                        <Figure.Image
+                            alt="Beanie Decreasing Stitches"
+                            src="../beanie-8-after-decrease.jpeg"
+                        />
+                        <Figure.Caption>
+                            Fig.9: After Decreasing Stitches
+                        </Figure.Caption>
+                    </Figure>
                 </li>
+                <br />
                 <li>We must now stitch together the Top of the Beanie with a fine needle and some yarn attached to our work.
                     It might not look exactly the same as in the video but its basically the same thing.
                     <iframe className='video'
@@ -148,6 +249,7 @@ function KnitBeanie() {
                         allowFullScreen>
                     </iframe>
                 </li>
+                <br />
                 <li>Using the same technique, we need to stitch together the entire Beanie from top to bottom,
                     And we're DONE!
                     <iframe className='video'
@@ -156,18 +258,40 @@ function KnitBeanie() {
                         src="https://youtube.com/embed/5kGkxn46_To?autoplay=0"
                         allowFullScreen>
                     </iframe>
-                    </li>
+                </li>
             </ol>
             <br /><br />
             Congratulations on making your first Beanie!
+            <Figure style={{
+                margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+            }}>
+                <Figure.Image
+                    alt="Beanie Final"
+                    src="../beanie-9-final.jpeg"
+                />
+                <Figure.Caption>
+                    Fig.10: Our Beanie is Done!
+                </Figure.Caption>
+            </Figure>
             <br /><br />
             We hope you had a lot of fun and enjoyed the Tutorial!
             Ofcourse there are plenty of variations in making the Beanie, so go ahead and try
             using different Knitting Patterns and colours! Dont be afraid of trying.
             <br />
-            Ofcourse if you want to add one final finishing touch, you can make 
+            Ofcourse if you want to add one final finishing touch, you can make
             a <Link to={"/learn/pom-pom"} >Pom Pom</Link> and stitch it
             to the top of the Beanie which gives the Beanie some character!
+            <Figure style={{
+                margin: "0 auto", display: "block", paddingTop: "1rem", width: "40%", minWidth: "10rem"
+            }}>
+                <Figure.Image
+                    alt="Beanie Pom Pom"
+                    src="../beanie-with-pom-pom.jpeg"
+                />
+                <Figure.Caption>
+                    Fig.11: Beanie with Pom Pom
+                </Figure.Caption>
+            </Figure>
         </div>
     );
 }
